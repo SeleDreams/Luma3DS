@@ -223,7 +223,7 @@ static void handleRestartHbAppNotification(u32 notificationId)
 #endif
 
 static const ServiceManagerServiceEntry services[] = {
-    {"rosalina:dbg", 2, handleRosalinaDebugger, false}, {NULL}};
+    {"rosalina:dbg", 5, handleRosalinaDebugger, false}, {NULL}};
 
 static const ServiceManagerNotificationEntry notifications[] = {
     {0x100, handleTermNotification},
